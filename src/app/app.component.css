@@ -11,9 +11,14 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background-image: linear-gradient(darkcyan, yellow);
-  text-align: center;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .app {
+    width: 320px;
+  }
 }
 
 header {
@@ -28,6 +33,7 @@ h1 {
   color: snow;
 }
 
-h1 {
+h4 {
+  text-align: center;
   font-family: carlito, sans-serif;
 }

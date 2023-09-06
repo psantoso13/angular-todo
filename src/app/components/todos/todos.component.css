@@ -1,6 +1,11 @@
 .todos {
   width: 480px;
-  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .todos {
+    width: 320px;
+  }
 }
 
 .todo {
